@@ -1,0 +1,143 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f0f5; /* Color de fondo suave */
+    color: #333; /* Color de texto */
+}
+
+/* Encabezado */
+header {
+    background-color: #ffb6c1; /* Rosa claro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo del contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Títulos */
+h2 {
+    color: #ff69b4; /* Rosa vibrante */
+    margin-bottom: 10px;
+}
+
+/* Sección de servicios */
+.servicio {
+    margin: 20px 0;
+}
+
+/* Contenedor de imagen y texto */
+.imagen-con-texto {
+    position: relative; /* Posicionamiento relativo para el contenedor */
+    display: inline-block; /* Permite que el texto se superponga a la imagen */
+}
+
+/* Estilo de las imágenes */
+.imagen-con-texto img {
+    width: 300px; /* Ancho fijo para todas las imágenes */
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Mantiene la proporción y recorta la imagen si es necesario */
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+}
+
+/* Texto en imagen */
+.texto-en-imagen {
+    position: absolute; /* Posicionamiento absoluto para el texto */
+    bottom: 10px; /* Ajusta la posición vertical */
+    left: 10px; /* Ajusta la posición horizontal */
+    color: white; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 5px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados para el fondo del texto */
+}
+
+/* Descripción del servicio */
+.descripcion {
+    font-size: 14px; /* Tamaño de fuente para la descripción */
+    margin-top: 5px; /* Espacio entre el texto de la imagen y la descripción */
+    color: #555; /* Color del texto de la descripción */
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    background-color: #ffb6c1; /* Rosa claro */
+    color: white;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+#contacto {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-top: 20px; /* Margen superior */
+}
+
+#contacto h2 {
+    color: #ff69b4; /* Rosa vibrante */
+}
+
+#contacto p {
+    color: #555; /* Color del texto */
+} 
+#reservar-cita {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-top: 20px; /* Margen superior */
+}
+
+#reservar-cita h2 {
+    color: #ff69b4; /* Rosa vibrante */
+}
+
+.reservar-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Rosa vibrante */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.reservar-btn:hover {
+    background-color: #ff1493; /* Rosa más oscuro al pasar el mouse */
+}
+#redes-sociales {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-top: 20px; /* Margen superior */
+    text-align: center; /* Centrar texto */
+}
+
+#redes-sociales h2 {
+    color: #ff69b4; /* Rosa vibrante */
+}
+
+.social-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Rosa vibrante */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px; /* Espacio entre botones */
+    transition: background-color 0.3s;
+}
+
+.social-btn:hover {
+    background-color: #ff1493; /* Rosa más oscuro al pasar el mouse */
+}
